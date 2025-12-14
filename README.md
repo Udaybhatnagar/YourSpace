@@ -1,84 +1,121 @@
-# OwnSpace (formerly Local Notes)
+YourSpace
+Your Private Writing Space.
 
-**Your Private Writing Space.**
+YourSpace is a local-first, privacy-focused note-taking application built for the modern web. It runs entirely in your browser and stores all data locally on your device.
+No accounts. No servers. No tracking.
 
-OwnSpace is a local-first, privacy-focused note-taking application built for the modern web. It runs entirely in your browser, storing your data locally on your device. No accounts, no servers, no tracking.
+🚀 Features
+
+🔒 100% Private
+Your notes never leave your device. All data is stored locally using IndexedDB.
+
+⚡ Lightning Fast
+Designed for speed and responsiveness with zero loading screens.
+
+📶 Works Offline
+Fully functional without an internet connection.
+
+📝 Rich Text Editor
+Powered by Tiptap, providing a clean and powerful writing experience.
+
+🌗 Dark / Light Mode
+Beautiful, accessible themes for any environment.
+
+📂 Export to Markdown
+Export all your notes into a single notes.md file for backup or portability.
+
+📱 Responsive Design
+Optimized for desktop, tablet, and mobile browsers.
+
+🛠 Tech Stack
+
+YourSpace is built using modern and reliable web technologies:
+
+Framework: Next.js 15 (App Router)
+
+Language: TypeScript
+
+Styling: Tailwind CSS v4 & Shadcn UI
+
+Editor: Tiptap
+
+State Management: Zustand
+
+Database: IndexedDB (via idb)
+
+⚙️ Getting Started
+Prerequisites
+
+Make sure you have Node.js installed.
+This project works best with npm or Bun.
+
+Installation
+
+Clone the repository
+
+git clone https://github.com/Udaybhatnagar/YourSpace.git
+cd YourSpace
 
 
-## Features
-https://github.com/KaushikKundu/local-notes
-- **🔒 100% Private**: Your notes never leave your device. All data is stored locally using IndexedDB.
-- **⚡ Lightning Fast**: Built with performance in mind, offering a seamless writing experience without loading screens.
-- **📶 Works Offline**: No internet connection required. Access and edit your notes anytime, anywhere.
-- **📝 Rich Text Editor**: Powered by [Tiptap](https://tiptap.dev/), offering a clean and powerful writing interface.
-- **🌗 Dark/Light Mode**: Beautifully designed themes to suit your preference.
-- **📂 Export to Markdown**: Easily export all your notes to a single Markdown file (`notes.md`) for backup or portability.
-- **📱 Responsive Design**: Works great on desktop, tablet, and mobile browsers.
+Install dependencies
 
-## Tech Stack
+npm install
+# or
+bun install
 
-OwnSpace is built with modern web technologies:
 
-- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/)
-- **Editor**: [Tiptap](https://tiptap.dev/)
-- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
-- **Database**: [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) (via `idb`)
+Run the development server
 
-## Getting Started
+npm run dev
+# or
+bun run dev
 
-### Prerequisites
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine. This project works best with [Bun](https://bun.sh/) or [npm](https://www.npmjs.com/).
+Open in browser
 
-### Installation
+http://localhost:3000
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/KaushikKundu/local-notes.git
-   cd local-notes
-   ```
+🧑‍💻 Usage
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   # or
-   bun install
-   ```
+Create a Note – Click New Note or start typing.
 
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   # or
-   bun run dev
-   ```
+Rename Notes – Click on the title in the header to edit.
 
-4. **Open your browser:**
-   Navigate to `http://localhost:3000` to see the application running.
+Format Text – Use the toolbar or keyboard shortcuts.
 
-## Usage
+Pin & Organize – Keep important notes at the top.
 
-1. **Create a Note**: Click the "New Note" button or simply start typing in a new editor instance.
-2. **Edit Title**: Click on the note title in the breadcrumb bar to rename it.
-3. **Format Text**: Use the floating menu or keyboard shortcuts to format your text (bold, italic, headings, lists, tasks).
-4. **Organize**: Use the sidebar to switch between notes.
-5. **Export**: Click "Export Notes" in the header to download all your notes as a `.md` file.
+Export Notes – Download all notes as a Markdown file.
 
-## Contributing
+🤝 Contributing
 
-Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+Contributions are welcome and appreciated!
 
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+Fork the repository
 
-## License
+Create a feature branch
 
-Distributed under the MIT License. See `LICENSE` for more information.
+git checkout -b feature/YourFeature
 
-## Contact
 
-Built with ❤️ by [Kaushik Kundu](https://github.com/KaushikKundu).
+Commit your changes
+
+git commit -m "Add new feature"
+
+
+Push to the branch
+
+git push origin feature/YourFeature
+
+
+Open a Pull Request
+
+📄 License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+📬 Contact
+
+Built with ❤️ by Uday Bhatnagar
+🔗 GitHub: https://github.com/Udaybhatnagar
